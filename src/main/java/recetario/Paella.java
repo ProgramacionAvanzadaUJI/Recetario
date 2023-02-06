@@ -1,7 +1,7 @@
 package recetario;
 
 public class Paella {
-    public void preparaPaella() {
+    public void preparaReceta() {
         System.out.println("Lava y trocea la verdura.");
         System.out.println("Corta el pollo.");
         System.out.println("Fríe el pollo.");

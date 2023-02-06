@@ -2,7 +2,7 @@ package recetario;
 
 public class Cocinero {
     private void preparaReceta(Paella paella) {
-        paella.preparaPaella();
+        paella.preparaReceta();
     }
 
     private void preparaReceta(LubinaAlHorno lubinaAlHorno) {
