@@ -1,17 +1,14 @@
 package recetario;
 
 public class Cocinero {
-    private void preparaReceta(Paella paella) {
-        paella.preparaReceta();
+    private void preparaReceta(Receta receta) {
+        receta.preparaReceta();
     }
 
-    private void preparaReceta(LubinaAlHorno lubinaAlHorno) {
-        lubinaAlHorno.preparaReceta();
-    }
     public void aCocinar() {
-        Paella paella = new Paella();
-        preparaReceta(paella);
-        LubinaAlHorno lubinaAlHorno = new LubinaAlHorno();
-        preparaReceta(lubinaAlHorno);
+        Receta receta = new Paella();
+        preparaReceta(receta);
+        receta = new LubinaAlHorno();
+        preparaReceta(receta);
     }
 }
