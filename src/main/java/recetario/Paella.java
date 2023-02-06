@@ -1,6 +1,7 @@
 package recetario;
 
-public class Paella {
+public class Paella implements Receta {
+    @Override
     public void preparaReceta() {
         System.out.println("Lava y trocea la verdura.");
         System.out.println("Corta el pollo.");

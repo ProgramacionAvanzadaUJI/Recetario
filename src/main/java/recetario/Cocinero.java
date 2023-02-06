@@ -6,7 +6,7 @@ public class Cocinero {
     }
 
     private void preparaReceta(LubinaAlHorno lubinaAlHorno) {
-        lubinaAlHorno.preparaLubina();
+        lubinaAlHorno.preparaReceta();
     }
     public void aCocinar() {
         Paella paella = new Paella();

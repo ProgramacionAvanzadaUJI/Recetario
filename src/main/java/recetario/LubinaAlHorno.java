@@ -1,7 +1,8 @@
 package recetario;
 
-public class LubinaAlHorno {
-    public void preparaLubina() {
+public class LubinaAlHorno implements Receta {
+    @Override
+    public void preparaReceta() {
         System.out.println("Extrae las vísceras.");
         System.out.println("Desescama.");
         System.out.println("Lava y trocea en gajos un limón.");
