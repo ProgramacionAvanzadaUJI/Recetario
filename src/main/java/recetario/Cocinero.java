@@ -6,9 +6,7 @@ public class Cocinero {
     }
 
     public void aCocinar() {
-        Receta receta = new Paella();
-        preparaReceta(receta);
-        receta = new LubinaAlHorno();
-        preparaReceta(receta);
+        preparaReceta(new Paella());
+        preparaReceta(new LubinaAlHorno());
     }
 }
